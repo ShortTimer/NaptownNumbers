@@ -1,0 +1,54 @@
+td:hover, a:active {
+  font-weight: bold;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: red;
+}
+
+div {
+  width: 75%;
+  margin: 50px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+.speed {
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+  #vph {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+@media (max-width: 699px) {
+  #vph {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+/*# sourceMappingURL=dummy.css.map */
