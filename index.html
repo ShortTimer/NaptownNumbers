@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>My Webpage</title>
-	<link rel="stylesheet" href="styles.css">
-     </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Naptown Numbers</title>
+  </head>
     <body>
- 	<h1>Quantitative v. Qualitative</h1>
-	<div>
-		<p>At this site we'll look at the difference between quantitative and qualitative arguments.  Our example will be arguments: over the expansion of the Indianapolis city-bus company, IndyGo.  We will consider</p>
-	</div>
-	<ul>
-		<li><a href="Marginal%20Cost.html">Marginal Cost</a></li>
-		<li><a href="emissions.html">Emissions</a></li>
-		<li><a href="congestion.html">Congestion</a></li>
-		<li><a href="mobility.html">Mobility</a></li>
-	</ul>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+     <div class="jumbotron" style="text-align: center">
+        <h1>Naptown Numbers</h1>
+		<p>Let's have some quantitative context.</p>
+    </div>
+	<div class="row">
+	  <div class="col-sm-9">
+	  <p>This site is about how policy discussions omit or misuse numbers.  It's called <i>Naptown</i> Numbers because it began in reaction to a campaign for a transit tax to subsidize IndyGo, the city-bus company in Indianapolis.</p>
+
+      <p>In that campaign the typical proponent's attitude was something like "Improving Indianapolis transit would be worth an extra $100 in annual taxes."  Note what's missing: the statement gives a price but not a quantity.  $10 may be a reasonable price for apples if the quantity is ten pounds.  Not so much if it's two apples. </p>	  
+	  
+	  <p>In the case of IndyGo, the product is human transportation, not apples, so the relevant quantity was how many added passenger-miles the transit tax would enable IndyGo to provide.  But despite a million-dollar propaganda campaign and dozens of "education" sessions it never provided an estimate of that quantity.</p>
+	  </div>
+	  <div class="col-sm-3" style="background-color:lavender;">
+	    <ul class="nav flex-column">
+		    <li><a class="nav-link" href=href="#">General</a></li>
+		    <li><a class="nav-link" href="emissions.html">Emissions</a></li>
+			<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">IndyGo</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Marginal%20Cost.html">Marginal Cost</a>
+                <a class="dropdown-item" href="emissions.html">Emissions</a>
+                <a class="dropdown-item" href="congestion.html">Congestion</a>
+                <a class="dropdown-item" href="mobility.html">Mobility</a></div>
+            </li>
+
+		    <li><a class="nav-link" href="congestion.html">Congestion</a></li>
+		    <li><a class="nav-link" href="mobility.html">Mobility</a></li>
+	    </ul>
+      </div>
+    </div>		
+    </div>		
     </body>
 </html>
